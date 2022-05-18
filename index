@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="main.css">
+      <title>Like do Amor</title>
+   </head>
+
+<body>
+    <a href="https://www.instagram.com/">
+        <img src="https://www.instagram.com/static/images/web/logged_out_wordmark.png/7a252de00b20.png">
+    </a>
+
+    <main>
+        <div> </div>
+        <div>0</div>
+    </main>
+
+    <script>
+        const domMain = document.querySelector("main")
+        // const domDivNum = document.querySelector("main div:last-child")
+        const domDivNum = domMain.querySelector("div:last-child")
+        let counter = 0
+        domMain.addEventListener("click", () => {
+            counter++
+            domDivNum.innerHTML = counter
+        })
+    </script>
+</body>
+
+</html>
