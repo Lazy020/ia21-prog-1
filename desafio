@@ -15,12 +15,12 @@ void async function () {
         }     
         var nota = parseFloat(strNota)
         if (isNaN(nota)) {
-        console.log(`\n[ ALERTA ESPERTINHO (A) ] - Entre com números entre 0 e 10 invés de letras!!\n`)
-        continue
+           console.log(`\n[ - ALERTA - ] - Entre com números entre 0 e 10 invés de letras!! \n`)
+            continue
     }
         if (isNaN(nota) || nota < 0 || nota > 10){
-            console.log('\n[ ALERTA!! ] - Entre somente com valores racionais entre 0 e 10 ou caracteres N ou n!! \n')
-            continue
+            console.log('\n[ - ALERTA -  ] - Entre somente com valores racionais entre 0 e 10 ou caracteres N ou n!! \n')
+             continue
         }
         soma = soma + nota
         count++
