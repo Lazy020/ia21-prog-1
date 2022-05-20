@@ -26,6 +26,6 @@ void async function () {
         count++
     }
     media = soma / count
-    console.log(`\n[ RESULTADO ] A média de todos os valores informados é -->`, media)
+    console.log(`\n[ - RESULTADO - ] - A média de todos os valores informados é -->`, media)
     process.exit()
 }()
