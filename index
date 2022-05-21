@@ -25,7 +25,7 @@
         domMain.addEventListener("click", () => {
             counter++
             domDivNum.innerHTML = counter
-        })
+        }
     </script>
 </body>
 
