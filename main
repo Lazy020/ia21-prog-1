@@ -1,4 +1,4 @@
-body{
+body {
     background: rgb(214, 255, 250);
     display: flex;
     justify-content: center;
@@ -7,7 +7,7 @@ body{
     height: 100vh;
 }
 
-img{
+img {
     width: 100%;
 }
 
